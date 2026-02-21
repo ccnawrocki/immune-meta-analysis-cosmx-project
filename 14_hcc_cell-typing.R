@@ -516,7 +516,7 @@ BPCells::plot_embedding(
   rasterize = T, labels_discrete = F
 ) + 
   scale_color_manual(values = celltype_cols) +
-  labs(x = "UM1", y = "UM2", title = "hcc: final cell types") + 
+  labs(x = "UM1", y = "UM2", title = "HCC: final cell types") + 
   guides(color = guide_legend(ncol = 2, override.aes = list(size = 3, shape = 15)))
 # ggsave("14_hcc_cell-typing_outs/umap_by_celltype_final.pdf", width = 8, height = 5)
 
